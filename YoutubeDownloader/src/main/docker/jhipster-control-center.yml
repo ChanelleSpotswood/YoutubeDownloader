@@ -43,7 +43,7 @@ services:
       - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
       - SPRING_SECURITY_USER_PASSWORD=admin
       # The token should have the same value than the one declared in you Spring configuration under the jhipster.security.authentication.jwt.base64-secret configuration's entry
-      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=M2JkOGY3ZGI4NmI4NmU4MDkzYmJlZDk3MTA4ZDdkZGVjZGYxY2UxZGJlZjE5NDFjZDU3YmU3MGRlZGI1OTkzNTdjNTE1ZjU4NzkxNGQ0M2M1MDRiZTVmOTMyN2Q1ZDE4YjUzODRiMDk2Nzg1NDg4NmJhYTFjNDMyMzJkZDcxNzM=
+      - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=ZjExZTRkZGU2MjY1OGIzZmMyZDVmMzEzODRhYmYwNWYxMTQzMWY5OGIwNzAwMGFkYmQxZTU2Y2Y5YWU5YWMxODBjN2I0ZDZkMjNjMGFkZWI1NTc0NmUwMTNkYjJjZGM5YjI4NTk4ZGM0M2I3NjEzNmExZDM5Nzc4YTM3NDdiZjk=
       - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_YOUTUBEDOWNLOADER_0_URI=http://host.docker.internal:8080
       - LOGGING_FILE_NAME=/tmp/jhipster-control-center.log
     # If you want to expose these ports outside your dev PC,

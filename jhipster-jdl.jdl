@@ -1,0 +1,37 @@
+application {
+  config {
+    baseName YoutubeDownloader
+    packageName rocks.zipcode.youtubedownloader
+    applicationType monolith
+    prodDatabaseType mysql
+  }
+  entities *
+  // The many things your app will work with
+}
+
+//entity Project {
+//  name String
+//}
+
+entity Video {
+  title String
+  videoId String
+  description String
+}
+
+//entity DownloadRequest {
+  //videoId String
+  //email String
+  //downloadStatus DownloadStatus
+//}
+
+//enum DownloadStatus {
+  //PENDING
+  //COMPLETED
+  //FAILED
+//}
+
+//relationship OneToMany {
+  //Video{downloadRequests} to DownloadRequest{video}
+//}
+// One video can have MANY download request, but each download request is connected to only ONE video
