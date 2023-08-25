@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, rocks.zipcode.youtubedownloader.domain.User.class.getName());
             createCache(cm, rocks.zipcode.youtubedownloader.domain.Authority.class.getName());
             createCache(cm, rocks.zipcode.youtubedownloader.domain.User.class.getName() + ".authorities");
+            createCache(cm, rocks.zipcode.youtubedownloader.domain.Video.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,28 @@
+{
+  "applications": ["YoutubeDownloader"],
+  "changelogDate": "20230825194615",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "video",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "videoId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Video",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
